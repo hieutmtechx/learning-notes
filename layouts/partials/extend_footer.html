@@ -1,0 +1,50 @@
+<button id="cat-btn" aria-label="Toggle cat" title="Toggle cat" onclick="toggleCat()" style="
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+  background: var(--entry);
+  border: 1px solid var(--border);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 18px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,.3);
+  transition: border-color .15s;
+">🐱</button>
+
+<img id="running-cat" src="/cat.gif" alt="pixel cat" style="
+  display: none;
+  position: fixed;
+  bottom: 0;
+  left: -120px;
+  height: 64px;
+  image-rendering: pixelated;
+  z-index: 998;
+  pointer-events: none;
+">
+
+<style>
+  @keyframes cat-run {
+    from { left: -120px; }
+    to   { left: 110%; }
+  }
+  #running-cat.running {
+    display: block;
+    animation: cat-run 6s linear infinite;
+  }
+  #cat-btn:hover {
+    border-color: #F0B040;
+  }
+</style>
+
+<script>
+  function toggleCat() {
+    const cat = document.getElementById('running-cat');
+    cat.classList.toggle('running');
+  }
+</script>
