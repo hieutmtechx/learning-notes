@@ -1,0 +1,7 @@
+:root {
+  --accent: #0d9488;
+}
+
+.post-content {
+  max-width: 780px;
+}
