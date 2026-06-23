@@ -1,2 +1,5 @@
 name = "learning-notes"
-pages_build_output_dir = "public"
+compatibility_date = "2026-06-23"
+
+[assets]
+directory = "public"
