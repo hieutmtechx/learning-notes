@@ -1,4 +1,4 @@
-baseURL = "http://localhost:1313/"
+baseURL = "https://learning-notes-8ef.pages.dev/"
 title   = "Learning Journal"
 theme   = "PaperMod"
 
