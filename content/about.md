@@ -14,3 +14,5 @@ Topics I'll probably write about: machine learning, NLP, algorithms, books, and 
 ---
 
 [LinkedIn](https://www.linkedin.com/in/hieu-tran-a136412b7/) — I promise my profile is more professional than this page.
+
+[GitHub](https://github.com/hieutmtechx) — where my code lives and my commit messages get increasingly unhinged at 2am.
