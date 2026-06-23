@@ -3,12 +3,14 @@ title: "About"
 draft: false
 ---
 
-Hi, I'm Hieu — a CS student working as an AI/ML Engineer.
+Hi, I'm Hieu — a CS student who convinced someone to give me the title "AI/ML Engineer." Still not sure if that was a mistake on their part or a win on mine.
 
-I spend most of my time thinking about machine learning and NLP: how models learn, why they fail, and what the math underneath actually means. Outside of that, I enjoy competitive programming — the kind of problem-solving that forces you to think precisely under pressure.
+I spend my days training models that occasionally work, reading NLP papers that occasionally make sense, and doing competitive programming problems that occasionally don't make me want to close my laptop forever. The keyword here is *occasionally*.
 
-This journal is where I write things down while they're still fresh. Notes on papers I've read, concepts that finally clicked, books worth remembering. Mostly for myself, but shared in case it's useful to anyone else.
+This journal exists because my brain leaks. I read something, think "ah, that's clever," and then forget it completely within 48 hours. So now I write it down. If it happens to be useful to you too, great — we can be confused together.
+
+Topics I'll probably write about: machine learning, NLP, algorithms, books, and whatever rabbit hole I've fallen into this week.
 
 ---
 
-[LinkedIn](https://www.linkedin.com/in/hieu-tran-a136412b7/)
+[LinkedIn](https://www.linkedin.com/in/hieu-tran-a136412b7/) — I promise my profile is more professional than this page.
