@@ -1,3 +1,53 @@
 baseURL = "http://localhost:1313/"
 title   = "Learning Journal"
 theme   = "PaperMod"
+
+paginate        = 10
+enableRobotsTXT = true
+
+[params]
+  env         = "production"
+  description = "Notes on things I'm figuring out."
+  homeInfoParams = { Title = "Learning Journal", Content = "Notes on machine learning, programming, books, and ideas — written down while they're still fresh." }
+
+  ShowReadingTime     = true
+  ShowShareButtons    = false
+  ShowPostNavLinks    = true
+  ShowBreadCrumbs     = true
+  ShowCodeCopyButtons = true
+  ShowToc             = true
+  TocOpen             = false
+  ShowFullTextinRSS   = false
+
+[taxonomies]
+  category = "categories"
+  tag      = "tags"
+  series   = "series"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[[menu.main]]
+  name   = "Posts"
+  url    = "/posts/"
+  weight = 1
+
+[[menu.main]]
+  name   = "Categories"
+  url    = "/categories/"
+  weight = 2
+
+[[menu.main]]
+  name   = "Tags"
+  url    = "/tags/"
+  weight = 3
+
+[[menu.main]]
+  name   = "Series"
+  url    = "/series/"
+  weight = 4
+
+[[menu.main]]
+  name   = "Search"
+  url    = "/search/"
+  weight = 5
