@@ -1,20 +1,20 @@
 <button id="cat-btn" aria-label="Toggle cat" title="Toggle cat" onclick="toggleCat()" style="
   position: fixed;
-  bottom: 20px;
-  right: 20px;
-  z-index: 999;
-  background: var(--entry);
-  border: 1px solid var(--border);
+  bottom: 24px;
+  right: 24px;
+  z-index: 9999;
+  background: var(--entry, #1E2438);
+  border: 2px solid #F0B040;
   border-radius: 50%;
-  width: 40px;
-  height: 40px;
-  font-size: 18px;
+  width: 44px;
+  height: 44px;
+  font-size: 20px;
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 2px 8px rgba(0,0,0,.3);
-  transition: border-color .15s;
+  box-shadow: 0 2px 12px rgba(240,176,64,.35);
+  transition: transform .15s, box-shadow .15s;
 ">🐱</button>
 
 <img id="running-cat" src="/cat.gif" alt="pixel cat" style="
@@ -38,7 +38,8 @@
     animation: cat-run 6s linear infinite;
   }
   #cat-btn:hover {
-    border-color: #F0B040;
+    transform: scale(1.1);
+    box-shadow: 0 4px 16px rgba(240,176,64,.5);
   }
 </style>
 
