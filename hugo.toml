@@ -53,3 +53,8 @@ enableRobotsTXT = true
   name   = "Search"
   url    = "/search/"
   weight = 5
+
+[[menu.main]]
+  name   = "About"
+  url    = "/about/"
+  weight = 6
