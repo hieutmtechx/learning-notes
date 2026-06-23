@@ -11,7 +11,7 @@ enableRobotsTXT = true
   env          = "production"
   defaultTheme = "dark"
   description = "Notes on things I'm figuring out."
-  homeInfoParams = { Title = "Learning Journal", Content = "Notes on machine learning, programming, books, and ideas — written down while they're still fresh." }
+  homeInfoParams = { Title = "Learning Journal", Content = "Notes on AI/ML concepts, coding, and ideas — written down while they're still fresh." }
 
   ShowReadingTime     = true
   ShowShareButtons    = false
