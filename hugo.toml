@@ -8,7 +8,8 @@ enableRobotsTXT = true
   pagerSize = 10
 
 [params]
-  env         = "production"
+  env          = "production"
+  defaultTheme = "dark"
   description = "Notes on things I'm figuring out."
   homeInfoParams = { Title = "Learning Journal", Content = "Notes on machine learning, programming, books, and ideas — written down while they're still fresh." }
 
