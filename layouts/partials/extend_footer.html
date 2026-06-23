@@ -17,18 +17,19 @@
   transition: transform .15s, box-shadow .15s;
 ">🐱</button>
 
-<img id="running-cat" src="/cat.gif" alt="pixel cat" style="
-  display: none;
-  position: fixed;
-  bottom: 0;
-  left: -120px;
-  height: 64px;
-  image-rendering: pixelated;
-  z-index: 998;
-  pointer-events: none;
-">
+<img id="running-cat" src="/cat.gif" alt="pixel cat">
 
 <style>
+  #running-cat {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    left: -120px;
+    height: 64px;
+    image-rendering: pixelated;
+    z-index: 998;
+    pointer-events: none;
+  }
   @keyframes cat-run {
     from { left: -120px; }
     to   { left: 110%; }
@@ -45,7 +46,6 @@
 
 <script>
   function toggleCat() {
-    const cat = document.getElementById('running-cat');
-    cat.classList.toggle('running');
+    document.getElementById('running-cat').classList.toggle('running');
   }
 </script>
