@@ -1,5 +1,2 @@
-name = "ml-notes"
+name = "learning-notes"
 pages_build_output_dir = "public"
-
-[build]
-command = "hugo --minify"
