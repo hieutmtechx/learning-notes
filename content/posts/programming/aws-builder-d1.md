@@ -4,7 +4,7 @@ date: 2026-07-09
 categories: ["Programming"]
 tags: ["aws", "bedrock", "agents"]
 series: ["aws-training"]
-draft: true
+draft: false
 ---
 
 ## Summary
